@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+
+
+
+
+
+/* new tailwindcss  */
+
+ 
+.btn-steps{
+    @apply  h-10 w-20 px-2 flex items-center justify-center rounded-md shadow-md shadow-black text-black font-semibold hover:bg-blue-500 hover:text-white
+   }
+
+   .tbl_BADGE{
+    @apply p-2 text-white font-bold capitalize rounded-lg
+   }
+
+   /* CSS */
+html, body {
+    overflow-x: hidden;
+  }
+  
+
+  .menu {
+    /* max-height: calc(100vh - 200px); Set the maximum height of the modal body */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar */
+    scrollbar-color: #6c757d #f8f9fa;
+    /* Set the color of the scrollbar */
+  }
+  
+  .menu::-webkit-scrollbar {
+    width: 6px; height:10px;
+    /* Set the width of the scrollbar */
+  }
+  
+  .menu::-webkit-scrollbar-track {
+    background-color: #d1d5db;
+    /* Set the background color of the scrollbar track */
+  }
+  
+  .menu::-webkit-scrollbar-thumb {
+    background-color: #8b5cf6;
+    /* Set the color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Set the border radius of the scrollbar thumb */
+  }
+
+  .selected-row {
+    background-color: red;
+  }
+  
+
+  .green-cell {
+    color: green; /* Set the text color to green */
+  }
+  
+  .red-cell {
+    color: red; /* Set the text color to red */
+  }
+
+  
+  .wrap-text {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    /* font-size: x-small; */
+  }
+  
+
+  .FORM-DIV{
+    @apply flex justify-center items-center mb-4
+  }
+
+  .FORM_INPUT1{
+    @apply border text-gray-400 border-gray-200 p-3 text-xs w-full outline-none rounded-lg shadow-lg shadow-gray-100
+  }
+.FORM_INPUT{
+  @apply w-full appearance-none border border-gray-400 rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500
+}
+
+  .tableHcell{
+    @apply text-start text-sm font-bold px-4 cursor-pointer capitalize text-black
+  }
+
+  .tableBcell{
+    @apply text-xs text-gray-400 py-1
+  }
+
+  .dropDownRole{
+    @apply text-blue-500   py-1 px-4 text-xs space-y-2 mt-1 cursor-pointer
+  }
+
+  .controlIconTopPOPUP{
+    @apply h-5 w-5  flex items-center justify-center text-center text-lg rounded-md text-white cursor-pointer
+  }
+
+
+  .gridCols{
+    @apply grid grid-cols-2 gap-2
+  }
+  .formLabel{
+    @apply block text-gray-500 font-medium text-sm
+  }
+  
+  .SelectUserCard{
+    @apply   border border-dashed border-violet-500 hover:bg-violet-300 hover:text-white w-full h-40 flex flex-col gap-5 px-5 py-5 items-center justify-center rounded-md shadow-md cursor-pointer shadow-gray-200
+  }
+
+  .titleDUser{
+   @apply text-lg  font-bold 
+  }
+
+  .subDUser{
+    @apply text-sm
+  }
+
+  .selected{
+    @apply bg-violet-300 text-white
+  }
+
+  .menuChats{
+    @apply text-center flex flex-col justify-center items-center cursor-pointer  p-3 rounded-full hover:text-violet-800 text-gray-600
+  }
+
+  .menuIcoms{
+    @apply h-5 w-5  
+  }
+
+  .menuNamechart{
+    @apply text-sm  
+  }
+
+  .subMenuProfileAction{
+    @apply text-sm py-2 mt-1 px-2 hover:bg-violet-200 text-gray-400 hover:text-violet-500 flex space-x-3 cursor-pointer
+  }
+
+  .boss{
+    @apply bg-red-500
+  }
+
+  .TABLE_HEADER_ACTIONS{
+    @apply hover:cursor-pointer  rounded-full p-1 bg-violet-400 hover:bg-violet-300 transition transform ease-in-out duration-500 
+  }
+
+  .ACTION_BUTTON{
+    @apply py-2 text-xs px-2 rounded-lg shadow-2xl shadow-black transition transform ease-in-out duration-500 cursor-pointer flex items-center gap-1;
+  }
+
+  .BTN{
+    @apply py-2   bg-violet-400 px-2 rounded-lg text-white cursor-pointer hover:bg-violet-300
+  }
+
+  .TextFied{
+    @apply   my-1
+  }
